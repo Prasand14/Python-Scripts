@@ -1,0 +1,9 @@
+import re
+from bs4 import BeautifulSoup
+
+word = word.lower()
+
+# Use regular expressions to do a find-and-replace
+sampletext = re.sub("[^a-zA-Z]",                #pattern to search
+				" ",                        #replacement
+				sampletext.get_text())     #text to searcch

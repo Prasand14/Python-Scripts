@@ -1,0 +1,28 @@
+mylist = []
+mylist.append(8)
+mylist.append(9)
+mylist.append(10)
+
+print(mylist[0]) # prints 1
+print(mylist[1]) # prints 2
+print(mylist[2]) # prints 3
+
+# prints out 1,2,3
+for x in mylist:
+    print(x)
+
+#print specific value
+	
+print(mylist[0])
+
+#adding two lists
+
+import numpy as np
+
+N = 5
+A = [1,2,3,4,5]
+B = [4,5,3,2,10]
+
+C = np.add(A, B)
+    
+print C

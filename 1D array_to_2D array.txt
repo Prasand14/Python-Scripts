@@ -1,0 +1,11 @@
+Sklearn wants a two dimensional array, you're passing in a one dimensional array. 
+You can easily reshape the data using the reshape command from numpy like so:
+
+numpy.reshape(x, (1,-1))
+which will convert your vector from
+
+[4,55,22]
+
+to
+
+[[4,55,22]]

@@ -1,0 +1,21 @@
+
+LEARNING - CODE Academy
+
+https://www.codecademy.com/learn/python 
+Code Academy is a very simple to use website for learning python. 
+It is interactive which makes it all the more fun.
+
+https://www.learnpython.org 
+This one is also of similar fashion. but on top of that this has a few Numpy and Data science 
+related topics which will definitely come in handy for you.
+
+
+NAIVE BAYES
+
+http://machinelearningmastery.com/naive-bayes-classifier-scratch-python/
+
+http://docs.aws.amazon.com/machine-learning/latest/dg/model-fit-underfitting-vs-overfitting.html
+
+Arrays-Python
+
+https://www.hackerrank.com/challenges/30-arrays

@@ -1,0 +1,35 @@
+**Answer: **
+Gaussian Naive Bayes
+Application - Sentiment Analysis, Text Classification, Spam Filtering, Recommendation System.
+Strengths:
+    
+    1. Need Less training data as assumption of independence between features holds and performs better than logistic regression.
+    2. It is eager learning classifier and performs well in multi-class prediction meaning a classification task with more than 2 classes; e.g., classify a set of images of fruits which be may apple,orange or pear.
+    3. Performs well with categorical input variables than with numerical input variables.
+Weakness:
+    
+    1. Assumption of independent predicters as in real time having a set predictors which are completely independent is impossible.
+    2. If a categorical variable has a category in test dataset but if it is not present in the training data then the model will assign a zero probability, so prediction is not possible in this case. This scenario is known as Zero Frequency and can be  solved by smoothing techniques like laplace estimation.
+Why good candidate?
+    
+    1.The Gaussian NB considers all the features are independent with each other and considers all these features independently contribute to the property whether an event will happen or not. [whether the individual's income is >50K or not].
+    2.Ideal for datasets with a mix of discrete and continous features.
+    3.It can outperform all high performance algorithms and ideal for large datasets.
+
+Decision Tree
+Application - Customer Relationship Management, Fraud Detection, Energy consumption, fault diagnosis e.g., identification of faulty bearings in rotary machines.
+Strengths:
+    1. High accuracy in discovering the hidden relationships between variables.
+    2. Decision trees are easy to explain as it is defined by a set of rules.
+    3. Capability to remove insignificant attributes within a dataset.
+    4. Number of hyper-parameters to be tuned is almost null.
+    5. Can easily handle features interactions and are non-parametric, so we don't have to think about outliers or whether the data is linearly separable.
+
+Weakness:
+    1. High Probability of over-fitting, it can be tackled using ensemble methods like random forest.
+    2. Low prediction accuracy for a dataset in comparison with other machine learning algorithms.
+    3. Becomes more complex, when there are more class labels.
+    4. The Information gain in a decision tree with categorical variables gives a biased response for attributes with more categories.
+    
+Why good candidate?
+

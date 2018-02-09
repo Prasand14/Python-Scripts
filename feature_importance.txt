@@ -1,0 +1,8 @@
+with tree based method we can use feature_importances to determine the most important features for the predictions 
+and understand how we got predicted prices.
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+clr = ['blue', 'green', 'red']
+
+sns.barplot(X_train.columns, reg.feature_importances_)

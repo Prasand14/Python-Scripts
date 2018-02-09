@@ -1,0 +1,22 @@
+def NextWordProbability(sampletext,word):
+    import collections
+    
+    #changing strings to lower case
+    word= word.lower() 
+    sampletext = sampletext.lower()
+    #initiating next_words list
+    next_words = [];
+    word_dict=[];
+    
+    #spliting sample text
+    word_list = sampletext.split()
+    
+    #iteration using for loop
+    for i,j in enumerate(word_list):
+        if j == word:
+            next_words.append(word_list[i+1])
+            word_dict = dict(collections.Counter(next_words))
+            success = 1
+    if not word_dict :
+        word_dict = {}
+    return word_dict

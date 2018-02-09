@@ -1,0 +1,8 @@
+import matplotlib.pyplot as plt
+plt.figure(figsize=(20, 5))
+for i, col in enumerate(features.columns):
+    plt.subplot(1, 3, i)
+    plt.plot(data[col], prices, 'o')
+    plt.title(col)
+    plt.xlabel(col)
+    plt.ylabel('prices')

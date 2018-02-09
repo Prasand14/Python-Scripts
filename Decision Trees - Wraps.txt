@@ -1,0 +1,19 @@
+Representation
+ID3 : A Top Down Learning Algorithm
+Sort of Expressiveness
+Bias of ID3
+"Best" Attributes by Information Gain [Gain(Entropy, Attributes)] or Gain(S,A)
+Dealing with Overfitting - Using Pruning to deal with Overfitting
+
+LIMITATIONS:
+
+1. Decision trees are prone to over fitting especially with data
+ which has lots and lots of features and a complicated decision tree it
+ can over fit the data. So, we have to be careful with the parameter tunes that
+ we are picking when we are building a decision tree.
+2. Stop the growth of th etree at the appropriate time.
+
+ADVANTAGES:
+ 
+1. With Decision Trees, we can build bigger classifiers out of decision trees in 
+ something called ENSEMBLE METHODS [BUILDING A CLASSIFIER OUT OF A CLASSIFIER]
